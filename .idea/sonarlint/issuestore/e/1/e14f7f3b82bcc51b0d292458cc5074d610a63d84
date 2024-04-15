@@ -1,0 +1,24 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š§°‰øÿÿÿÿ8ÖºóÑš1
+e
+java:S35181"CMake sure this expression can't be zero before doing this division.(Ò½Öûÿÿÿÿ8éºóÑš1
+Q
+java:S1854,"5Remove this useless assignment to local variable "s".(•ğµ8îºóÑš1
+U
+java:S1854"9Remove this useless assignment to local variable "items".(›Ïğ8ğºóÑš1
+]
+java:S1854";Remove this useless assignment to local variable "strings".(Èì¼ûşÿÿÿÿ8ñºóÑš1
+H
+java:S1481"&Remove this unused "t" local variable.(äÌÈÔüÿÿÿÿ8òºóÑš1
+N
+java:S1481",Remove this unused "strings" local variable.(Èì¼ûşÿÿÿÿ8ôºóÑš1
+n
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(›Ïğ8õºóÑš1
+F
+java:S1481"*Remove this unused "items" local variable.(›Ïğ8öºóÑš1
+I
+java:S1602#",Remove useless curly braces around statement(¨£­¡8øºóÑš1
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(¼Ó€ùÿÿÿÿ8øºóÑš1
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(Ÿšóå8úºóÑš1
+B
+java:S1481,"&Remove this unused "s" local variable.(•ğµ8ûºóÑš1
