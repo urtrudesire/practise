@@ -9,7 +9,7 @@ public class DiameterOfBT {
      * (note that there is more than one path in each tree of length nine, but no path longer than nine nodes).
      */
 
-    static int result = Integer.MIN_VALUE;
+    int result = Integer.MIN_VALUE;
 
     int diameter(TreeNode root) {
         // Your code here
@@ -36,6 +36,6 @@ public class DiameterOfBT {
         node.right = right;
         DiameterOfBT o = new DiameterOfBT();
         o.diameter(node);
-        System.out.println(result);
+        System.out.println(o.result);
     }
 }
