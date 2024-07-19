@@ -3,7 +3,7 @@ package Code;
 import java.util.HashSet;
 import java.util.Set;
 
-public class LongestSubstringLength {
+public class LongestNonRepeatingSubstringLength {
 
     public static void main(String[] args) {
         System.out.println(lengthOfLongestSubstring("ohvhjdml"));

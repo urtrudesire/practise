@@ -3,3 +3,5 @@
 /workspace.xml
 /sonarlint/*
 /vcs.xml
+/out/*
+/.idea/*
