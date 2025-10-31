@@ -6,9 +6,8 @@ import java.util.List;
 public class PhoneNumber {
 
     public static void main(String[] args) {
-        String c = "NFANDROID2-PRV-USW4071ATL-MGK00000000000000000000000000000000841";
         PhoneNumber p = new PhoneNumber();
-        String l = "23";
+        String l = "228";
         System.out.println(p.letterCombinations(l).size());
         for(String t : p.letterCombinations(l))
             System.out.println(t);
@@ -18,7 +17,6 @@ public class PhoneNumber {
         if(digits.isEmpty()){
             return res;
         }
-        int[] t = new int[digits.length()];
         String[] base = {"abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         res = getCombination(base, digits);
         return res;
@@ -35,7 +33,7 @@ public class PhoneNumber {
                 res.add(String.valueOf(c));
             } else {
                 for(String v : x){
-                    res.add(String.valueOf(c) + v);
+                    res.add(c + v);
                 }
             }
         }
