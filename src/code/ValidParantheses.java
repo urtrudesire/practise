@@ -1,5 +1,6 @@
 package code;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
@@ -12,8 +13,8 @@ public class ValidParantheses {
     }
 
     public boolean isValid(String s) {
-        List<Character> open = List.of('(', '{', '[');
-        List<Character> close = List.of(')', '}', ']');
+        List<Character> open = new ArrayList<>();//List.of('(', '{', '[');
+        List<Character> close = new ArrayList<>();//List.of(')', '}', ']');
         Stack<Character> stack = new Stack<>();
         int index = 0;
         while(index < s.length()){
